@@ -83,6 +83,13 @@ public class MenuDriven {
                         r=r/10;
                     }
                     System.out.println("The reverse of given number is:"+rev);
+                    break;
+
+                case 6:
+                    break;
+                default:
+                    System.out.println("Invalid choice");
+                    break;
 
 
 
