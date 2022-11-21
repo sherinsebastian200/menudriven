@@ -10,7 +10,27 @@ public class MenuDriven {
             int operation=sc.nextInt();
 
 
-            switch (operation) {
+            switch (operation)
+            {
+                case 1:
+                    System.out.println("Enter the first number");
+                    int a = sc.nextInt();
+                    System.out.println("Enter the second number");
+                    int b = sc.nextInt();
+                    System.out.println("Enter the third number");
+                    int c = sc.nextInt();
+                    if(a>b&&a>c){
+                        System.out.println(a+"is largesr");
+                    } else if (b>c)
+                    {
+                        System.out.println(b+"is largest");
+
+                    }
+                    else {
+                        System.out.println(c+"is largset");
+                    }
+                    break;
+
 
             }
 
