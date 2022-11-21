@@ -30,6 +30,24 @@ public class MenuDriven {
                         System.out.println(c+"is largset");
                     }
                     break;
+                case 2:
+                    System.out.println("Enter the first number");
+                    int x = sc.nextInt();
+                    System.out.println("Enter the second number");
+                    int y = sc.nextInt();
+                    System.out.println("Enter the third number");
+                    int z = sc.nextInt();
+                    if(x<y&&x<z){
+                        System.out.println(x+"is smallest");
+                    } else if (y<z)
+                    {
+                        System.out.println(y+"is smallest ");
+
+                    }
+                    else {
+                        System.out.println(z+"is smallest");
+                    }
+                    break;
 
 
             }
@@ -40,10 +58,6 @@ public class MenuDriven {
 
             System.out.println("do you want to continue ?1.yes 2.no");
             ex=sc.nextInt();
-
-
-
-
         }while (ex==1);
 
     }
